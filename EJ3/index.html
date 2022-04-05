@@ -13,16 +13,16 @@
         <h3>Bienvenidos a nuestro blog</h3>
 
         <picture>
-            <source media="(max-width: 500px)" srcset="">
-            <source media="(max-width: 501px)" srcset="">
-            <img src="" alt="logo">
+            <source media="(max-width: 799px)" srcset="images/velazquezlogo-small.jpeg">
+            <source media="(min-width: 501px)" srcset="images/velazquezlogo-big.jpeg">
+            <img src="images/velazquezlogo-big.jpeg" alt="logo">
         </picture>
     </header>
     <nav>
         <h2>Barra de Navegación</h2>
-        <div class="imaop"><a href="#not1"><img src="" alt="boton1"></a></div>
-        <div class="imaop"><a href="#not2"><img src="" alt="boton2"></a></div>
-        <div class="imaop"><a href="#not3"><img src="" alt="boton3"></a></div>
+        <div class="opacity"><a href="#not1"><img src="buttons/button1.png" alt="boton1"></a></div>
+        <div class="opacity"><a href="#not2"><img src="buttons/button2.png" alt="boton2"></a></div>
+        <div class="opacity"><a href="#not3"><img src="buttons/button3.png" alt="boton3"></a></div>
     </nav>
 
     <main>
@@ -31,9 +31,9 @@
             <article id="art1">
                 <a id="not1"></a>
                 <div id="div_not_1">    
-                    <a href=""><p>Entrega de notas</p></a>
+                    <a href="noticias/noticia1.html"><p class="Titulos">Entrega de notas</p></a>
                     <p>El día 25 de marzo</p>
-                    <a href=""><img src="" alt="foto1"></a>
+                    <a href="noticias/noticia1.html"><img src="images/notas.jpeg" alt="foto1"></a>
                 </div>
                 <p id="p_not1">1 comentario</p>
             </article>
@@ -41,25 +41,27 @@
             <article id="art2">
                 <a id="not2"></a>
                 <div id="div_not_2">    
-                    <a href=""><p>Entrega de notas</p></a>
-                    <p>El día 25 de marzo</p>
-                    <a href=""><img src="" alt="foto1"></a>
+                    <a href="noticias/noticia2.html"><p class="Titulos">Programación de las jornadas de Espacio</p></a>
+                    <p>Durante días....</p>
+                    <a href="noticias/noticia2.html"><img src="images/jornadas.jpeg" alt="foto1" width="500" height="500"></a>
                 </div>
+                <p id="p_not2">3 comentario</p>
             </article>
 
             <article id="art3">
                 <a id="not3"></a>
                 <div id="div_not_3">    
-                    <a href=""><p>Entrega de notas</p></a>
-                    <p></p>
-                    <a href=""><img src="" alt="foto1"></a>
+                    <a href="noticias/noticia3.html"><p class="Titulos">Vacaciones de verano</p></a>
+                    <p>el día 23 de junio....</p>
+                    <a href="noticias/noticia3.html"><img src="images/vacaciones.jpeg" alt="foto1" width="500" height="500"></a>
                 </div>
+                <p id="p_not3">5 comentario</p>
             </article>
         </section>
     </main>
     <footer>
         <P>Siguenos en nuestras redes</P>
-
+        <img src="images/redes.jpeg" alt="Redes" width="150" height="50"><br>
         IES VELÁZQUEZ
     </footer>
 </body>

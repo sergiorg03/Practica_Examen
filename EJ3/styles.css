@@ -4,30 +4,57 @@ body{
 
 header{
     background-color: rgb(129, 60, 194);
+    padding: 5px 0px;
+}
+
+nav .opacity{
+    opacity: 1;
+    display: inline-block;
+}
+nav .opacity:hover{
+    opacity: 0.5;
 }
 
 nav{
     background-color: rgb(241, 119, 119);
+    padding-bottom: 10px ;
+    padding-top: 10px;
 }
 
 main{
     background-color: rgb(107, 231, 253);
     align-items: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
+
+section{
+    margin: 0px 40px;
+}
+
+.Titulos{
+    font-size: 25px;
+}
+
 #art1{
     border: 3px solid rgb(90, 156, 70);
-    margin: 50px;
+    margin: 50px 20px;
     background-color: aquamarine;
+    padding-top: 10px;
 }
 
 #art2{
-    border: 3px solid gold;
-    margin: 50px;
+    border: 3px solid rgb(163, 106, 0);
+    margin: 50px 20px;
+    background-color: rgb(245, 205, 132);
+    padding-top: 10px;
 }
 
 #art3{
-    border: 3px solid pink;
-    margin: 50px;
+    border: 3px solid rgb(213, 73, 218);
+    margin: 50px 20px;
+    background-color: rgb(235, 196, 245);
+    padding-top: 10px;
 }
 
 #div_not_1{
@@ -36,13 +63,49 @@ main{
     margin: 4px 30px;
 }
 
+#div_not_2{
+    padding: 5px;
+    background-color: rgb(163, 118, 34);
+    margin: 4px 30px;
+}
+
+#div_not_3{
+    padding: 5px;
+    background-color: rgb(176, 92, 218);
+    margin: 4px 30px;
+}
+
 #p_not1{
-    border: 4px dotted greenyellow;
+    border: 4px dotted rgb(68, 148, 68);
     margin: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: blue;
+}
+
+#p_not2{
+    border: 4px dotted rgb(163, 118, 34);
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: blue;
+}
+
+#p_not3{
+    border: 4px dotted rgb(213, 73, 218);
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: blue;
 }
 
 footer{
     background-color: grey;
+    padding-top: 10px;
 }
