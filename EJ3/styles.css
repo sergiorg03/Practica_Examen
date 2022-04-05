@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+}
+
+header{
+    background-color: rgb(129, 60, 194);
+}
+
+nav{
+    background-color: rgb(241, 119, 119);
+}
+
+main{
+    background-color: rgb(107, 231, 253);
+    align-items: center;
+}
+#art1{
+    border: 3px solid rgb(90, 156, 70);
+    margin: 50px;
+    background-color: aquamarine;
+}
+
+#art2{
+    border: 3px solid gold;
+    margin: 50px;
+}
+
+#art3{
+    border: 3px solid pink;
+    margin: 50px;
+}
+
+#div_not_1{
+    padding: 5px;
+    background-color: rgb(46, 141, 87);
+    margin: 4px 30px;
+}
+
+#p_not1{
+    border: 4px dotted greenyellow;
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: grey;
+}
