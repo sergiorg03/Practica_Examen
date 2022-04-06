@@ -7,6 +7,74 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Registro en VelázquezPhone</h1>
+        <img src="velazquezlogo-small.jpeg" alt="Logo" width="100">
+    </header>
+    <form name="Formulario" action="https://github.com/IES-Velazquez-2122-LM/proyecto-serrodgen/blob/main/articles/formulario.html" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Formulario de pedido</legend>
+            <b>Paso 1. Identificación</b>
+            <fieldset>
+                <legend>Datos del cliente</legend>
+
+                <label for="nombre">Nombre:</label><input name="nombre" id="nombre" type="text"><br>
+
+                <label for="ape">Apellido:</label><input name="ape" id="ape" type="text"><br>
+
+                <label for="email">Email:</label><input name="email" id="email" type="text"><br>
+
+                <label for="pass">Contraseña:</label><input name="pass" id="pass" type="password" maxlength="8"><br>
+                (Longitud máxima 8 carácteres)
+            </fieldset><br>
+
+            <b>Paso 2. Tipo de cliente</b><br><br>
+            <fieldset>
+                <legend>Tipo de cliente</legend>
+                <label for="par">Particular</label><input name="cliente" id="par" type="radio" checked><br>
+
+                <label for="emp">Empresa</label><input name="cliente" id="emp" type="radio"><br>
+            </fieldset><br>
+
+            <b>Paso 3. Pedido</b><br><br>
+            <fieldset>
+                <legend>Datos del producto</legend>
+
+                <select name="myt" id="myt" multiple>
+                    <optgroup label="Móviles">
+                        <option value="AI13">AI13 Apple Iphone 13 pro</option>
+                        <option value="SGS22">SGS22 Samsung Galaxy</option>
+                        <option value="XM1t">XM1T Xiaomi</option>
+                    </optgroup>
+                    <optgroup label="Tarifas">
+                        <option value="TD6GI">Tarifa dragon</option>
+                        <option value="TT5G">Tarifa tigre</option>
+                        <option value="TR2B">Tarifa Ratón</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Información de interes</legend>
+
+                <textarea name="coment" id="coment" cols="70" rows="10" placeholder="Escriba aquí sus comentarios."></textarea><br>
+
+                <input type="checkbox" name="public" id="public" value="publicidad"><label for="public">Acepta recibir Información publicitaria de VelázquezPhone</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos del envio</legend>
+
+                <label for="direc">Dirección:</label><input type="text" name="direc" id="direc"><br>
+
+                <label for="ciudad">Ciudad:</label><input type="text" name="ciudad" id="ciudad">
+
+                <label for="cp">Código Postal:</label><input type="number" name="cp" id="cp" maxlength="5">
+            </fieldset>
+
+            <br>
+            <button type="submit" value="enviar" name="enviar" id="enviar">Enviar Pedido</button>
+            <button type="reset" value="reset" name="reset" id="reset">Reset</button>
+        </fieldset>
+    </form>
 </body>
 </html>
